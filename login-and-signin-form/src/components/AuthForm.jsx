@@ -5,7 +5,7 @@ import Input from "./Input";
 const AuthForm = ({ isSignin, isSingup }) => {
   return (
     <div className="grid grid-cols-20 pt-60 place-items-center">
-      <h1 className="text-center m-4 font-bold text-3xl font-serif">
+      <h1 className="text-center m-4 text-3xl">
         {isSignin ? "Sign In" : "Sign Up"}
       </h1>
       <div>
